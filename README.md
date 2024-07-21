@@ -7,3 +7,11 @@ pip install transformers torch
 
 pip install textblob transformers torch beautifulsoup4 requests
 python -m textblob.download_corpora
+
+
+
+example format to give output 
+
+Enter URL to analyze sentiment: https://fortnite.com
+Choose method (textblob/transformers): transformers
+Transformers - Label: POSITIVE, Score: 0.85
